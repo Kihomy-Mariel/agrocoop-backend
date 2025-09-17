@@ -1,0 +1,1 @@
+# Tests del sistema de gestión cooperativa

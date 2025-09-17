@@ -1,0 +1,1 @@
+# Tests para CU2: Logout y Sesión Avanzada

@@ -1,0 +1,1 @@
+# Tests para CU3: Gestión de Socios, Usuarios, Roles, Validaciones, Búsquedas y Reportes
