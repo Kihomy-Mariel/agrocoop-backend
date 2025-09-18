@@ -67,6 +67,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:8000",
     "http://localhost:8080",  # Additional common ports
     "http://127.0.0.1:8080",
+     "http://10.0.2.2:8000",    # Android emulador (si accedes desde webview)
+    
     # Add your production domain here
 ]
 
@@ -144,7 +146,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'cooperativa_db',
         'USER': 'postgres',
-        'PASSWORD': '123456',
+        'PASSWORD': 'kihomy123',
         'HOST': 'localhost',
         'PORT': '5432',
     }
@@ -204,4 +206,6 @@ CSRF_TRUSTED_ORIGINS = [
     'http://127.0.0.1:3000',
     'http://localhost:8000',
     'http://127.0.0.1:8000',
+    "http://10.0.2.2:8000",
+    "http://192.168.0.11:8000", # tu IP si usas dispositivo físico
 ]
